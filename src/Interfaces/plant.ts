@@ -8,5 +8,4 @@ export interface PlantResponse {
     humidity: number;
     light: "Low" | "Medium" |"High";
     image: string;
-    createdAt: Date;
 }
